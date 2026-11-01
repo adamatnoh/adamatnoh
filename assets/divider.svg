@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="12" viewBox="0 0 900 12">
+<defs><linearGradient id="p" x1="0" x2="1"><stop offset="0" stop-color="#4ade80" stop-opacity="0"/><stop offset=".5" stop-color="#4ade80"/><stop offset="1" stop-color="#4ade80" stop-opacity="0"/></linearGradient>
+<filter id="b" x="-20%" y="-300%" width="140%" height="700%"><feGaussianBlur stdDeviation="2"/></filter></defs>
+<style>.p{animation:run 3.2s cubic-bezier(.5,0,.5,1) infinite}@keyframes run{from{transform:translateX(-240px)}to{transform:translateX(900px)}}
+@media (prefers-reduced-motion: reduce){.p{animation:none}}</style>
+<line x1="0" y1="6" x2="900" y2="6" stroke="#21262d" stroke-width="1"/>
+<g class="p"><rect y="4" width="240" height="4" fill="url(#p)" filter="url(#b)"/><rect y="5.5" width="240" height="1" fill="url(#p)"/></g>
+</svg>

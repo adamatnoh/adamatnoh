@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="110" viewBox="0 0 900 110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace">
+<defs><linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4ade80" stop-opacity=".55"/><stop offset="1" stop-color="#4ade80" stop-opacity="0"/></linearGradient>
+<linearGradient id="fg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22c55e" stop-opacity=".28"/><stop offset="1" stop-color="#22c55e" stop-opacity="0"/></linearGradient></defs>
+<style>.w1{animation:w 9s linear infinite}.w2{animation:w 14s linear infinite reverse}
+@keyframes w{from{transform:translateX(0)}to{transform:translateX(-300px)}}
+@media (prefers-reduced-motion: reduce){.w1,.w2{animation:none}}</style>
+<path class="w2" d="M0 52 q75.0 -10 150.0 0 t150.0 0 q75.0 -10 150.0 0 t150.0 0 q75.0 -10 150.0 0 t150.0 0 q75.0 -10 150.0 0 t150.0 0 q75.0 -10 150.0 0 t150.0 0 q75.0 -10 150.0 0 t150.0 0 q75.0 -10 150.0 0 t150.0 0 V110 H0 Z" fill="url(#fg2)"/>
+<path class="w1" d="M0 66 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 q75.0 -14 150.0 0 t150.0 0 V110 H0 Z" fill="url(#fg)"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace">
+<title>recent builds</title>
+<style>
+@keyframes s0 { 0% {opacity:0;transform:translateY(8px)} 0.00% {opacity:0;transform:translateY(8px)} 2.50% {opacity:1;transform:none} 30.83% {opacity:1;transform:none} 33.33% {opacity:0;transform:translateY(-8px)} 100% {opacity:0} }
+.s0 { opacity:0; animation: s0 10.5s infinite; }
+@keyframes s1 { 0% {opacity:0;transform:translateY(8px)} 33.33% {opacity:0;transform:translateY(8px)} 35.83% {opacity:1;transform:none} 64.17% {opacity:1;transform:none} 66.67% {opacity:0;transform:translateY(-8px)} 100% {opacity:0} }
+.s1 { opacity:0; animation: s1 10.5s infinite; }
+@keyframes s2 { 0% {opacity:0;transform:translateY(8px)} 66.67% {opacity:0;transform:translateY(8px)} 69.17% {opacity:1;transform:none} 97.50% {opacity:1;transform:none} 100.00% {opacity:0;transform:translateY(-8px)} 100% {opacity:0} }
+.s2 { opacity:0; animation: s2 10.5s infinite; }
+.bar { transform-box: fill-box; transform-origin: left center; animation: bar 3.5s linear infinite; }
+@keyframes bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.sp { animation: sp 1s steps(1) infinite; }
+@keyframes sp { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .s1, .s2, .bar { animation: none; } .s0 { animation:none; opacity:1; } }
+</style>
+<rect x=".5" y=".5" width="899" height="149" rx="10" fill="#0d1117" stroke="#30363d"/>
+<text x="30" y="40" font-size="14"><tspan fill="#4ade80">➜ </tspan><tspan fill="#60a5fa">~ </tspan><tspan fill="#c9d1d9">watch -n 3.5 ./recent_builds.sh</tspan></text>
+<text x="870" y="40" font-size="12" fill="#4ade80" text-anchor="end"><tspan class="sp">●</tspan> live</text>
+<g class="s0"><text x="30" y="88" font-size="19" font-weight="700" fill="#4ade80">▸ islamic-tv-launcher</text><text x="870" y="88" font-size="12.5" fill="#8b949e" text-anchor="end">Java</text><text x="30" y="114" font-size="14" fill="#c9d1d9">Android TV home launcher · JAKIM prayer times · azan · child lock</text></g><g class="s1"><text x="30" y="88" font-size="19" font-weight="700" fill="#4ade80">▸ SPTK @ Mechanikos</text><text x="870" y="88" font-size="12.5" fill="#8b949e" text-anchor="end">Laravel · Vue 3 · TS</text><text x="30" y="114" font-size="14" fill="#c9d1d9">national MIS for 5,000+ TABIKA preschool centres</text></g><g class="s2"><text x="30" y="88" font-size="19" font-weight="700" fill="#4ade80">▸ adamnajmi.com</text><text x="870" y="88" font-size="12.5" fill="#8b949e" text-anchor="end">Astro · React</text><text x="30" y="114" font-size="14" fill="#c9d1d9">terminal portfolio · AI chatbot · daily word-hunt with streaks</text></g>
+<rect x="30" y="132" width="840" height="2" rx="1" fill="#21262d"/>
+<rect class="bar" x="30" y="132" width="840" height="2" rx="1" fill="#4ade80"/>
+</svg>
