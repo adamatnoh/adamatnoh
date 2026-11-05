@@ -24,7 +24,7 @@ Strengths: API security, authentication design, third-party integrations, techni
 
 $ cat now.txt
 Full Stack Developer @ Mechanikos Sdn. Bhd. (Aug 2026 – now)
-Leading 6 developers on SPTK, a national MIS for 5,000+ TABIKA preschool centres
+Leading developers on Kemas EduCeria, a national MIS for 5,000+ TABIKA preschool centres
 under KEMAS — Laravel · Vue 3 · TypeScript · Playwright.
 
 $ history | tail -3
@@ -75,7 +75,7 @@ $ history | tail -3
 
 ### `$ ls ~/projects`
 
-<img src="assets/building.svg" width="100%" alt="watch ./recent_builds.sh: islamic-tv-launcher, SPTK, adamnajmi.com" />
+<img src="assets/building.svg" width="100%" alt="watch ./recent_builds.sh: islamic-tv-launcher, Kemas EduCeria, adamnajmi.com" />
 
 <table>
 <tr>
